@@ -1,0 +1,13 @@
+<html>
+<head>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+</head>
+<body>
+    <script type="module">
+        import * as hello from './__Target__/hello.js';
+        window.hello = hello
+    </script>
+    <div id="idPlace">..Is this the Krusty Krab?..</div>
+    <input id="fragment"><button onclick="$(document).ready(hello.DoThing)">Do The Thing!</button>
+</body>
+</html>
