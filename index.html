@@ -17,14 +17,20 @@ div.b {
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
 </head>
 <body>
+    <div class="a">
+Hello! This is a regex solver for the fragmentary words in Sappho's corpus. You can enter the letters you do have, and it will return the words that are already attested in the corpus that would be a match.</a>.
+    <br>
+    <div class="a">
+See my other projects and recent work at <a href="https://sbrennanmcmahon.com" </a> my personal website</a>.
+</div> <br>
     <script type="module">
         import * as hello from './__Target__/hello.js';
         window.hello = hello
     </script>
-    <div id="idPlace">Enter the letters from your fragment, and use . for letters you don't know. Don't worry about accents.</div>
+    <div id="idPlace">Instructions: Enter the letters from your fragment, and use . for letters you don't know. Don't worry about accents.</div>
+    <br>
     <input id="fragment"><button onclick="$(document).ready(hello.DoThing)">Search</button>
-<div class="a">
-See my other projects and recent work at <a href="https://sbrennanmcmahon.com" </a> my personal website</a>.
-</div> <br>
+    <br>
+    
 </body>
 </html>
